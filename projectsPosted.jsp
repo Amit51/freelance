@@ -7,14 +7,21 @@
 <title></title>
 
 <link href="site.css" rel="stylesheet">
+<link href="w3full.css" rel="stylesheet" >
 
 </head>
 <body>
+
+<div class="w3-header teal">
+  <h1>My Header</h1>
+</div>
+
 
 <nav id="nav01"></nav>
 
 <div id="main">
 <h1>Posted Projects</h1>
+
 
 <table>
 <tr>
@@ -40,7 +47,13 @@
 
 </table>
 
+
 <footer id="foot01"></footer>
+</div>
+
+<div class="w3-footer teal">
+  <h5>Footer</h5>
+  <p>Footer information goes here</p>
 </div>
 
 <script src="script.js"></script>
